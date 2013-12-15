@@ -1,0 +1,23 @@
+[global_config]
+[keybindings]
+	cycle_prev = None
+	cycle_next = None
+[profiles]
+	[[default]]
+		scrollbar_position = hidden
+		palette = "#2e3436:#cc6666:#b5bd68:#f0c674:#81a2be:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#f0b074:#8abeb7:#b294bb:#34e2e2:#eeeeec"
+		use_system_font = False
+		foreground_color = "#ffffff"
+		font = DejaVu Sans Mono 9
+		background_color = "#0c0c0c"
+		scrollback_infinite = True
+[layouts]
+	[[default]]
+		[[[child1]]]
+			type = Terminal
+			parent = window0
+			profile = default
+		[[[window0]]]
+			type = Window
+			parent = ""
+[plugins]
