@@ -64,7 +64,7 @@ alias em="emacs -nw"
 alias ps1="ps axo user,pid,ppid,gid,sid,tty,stat,start,command"
 
 # Activate the default Python environment
-source ~/default_env/bin/activate
+source ~/work/default_env/bin/activate
 
 # Include TeXlive directory
 export PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH
